@@ -1,0 +1,14 @@
+modules:
+  ethical_agents:
+    - name: ExampleEthicalAgent
+      parameters:
+        threshold: 0.8
+  rl_manager:
+    name: ExampleRLManager
+    parameters:
+      initial_weights:
+        ecocentric: 0.2
+        equity_focused: 0.2
+        human_centric: 0.2
+        innovation_focused: 0.2
+        sentient_first: 0.2 

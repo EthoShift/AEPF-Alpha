@@ -1,0 +1,28 @@
+# .gitignore
+
+# Ignore all virtual environments
+**/myenv38/
+**/env/
+**/venv/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pkl
+
+# Logs & junk
+*.log
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter/IPython
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
